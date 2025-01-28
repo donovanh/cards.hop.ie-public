@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="../../../favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+      }
+
+      body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        padding: 5vh clamp(1rem, 5vw, 3rem) 1rem;
+        font-family: system-ui, sans-serif;
+        line-height: 1.5;
+        color: #222;
+      }
+
+      body > * {
+        --layout-spacing: max(8vh, 1rem);
+        --max-width: 70ch;
+        width: min(100%, var(--max-width));
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      main {
+        margin: 0 auto;
+        max-width: 80em;
+        width: 100%;
+      }
+
+      main p {
+        margin: 1rem 0 0;
+      }
+
+      footer {
+        margin-top: auto;
+        padding-top: var(--layout-spacing);
+      }
+
+      footer p {
+        border-top: 1px solid #ccc;
+        padding-top: 0.25em;
+        font-size: 0.9rem;
+        color: #767676;
+      }
+
+      :is(h1, h2, h3) {
+        line-height: 1.2;
+      }
+
+      :is(h2, h3):not(:first-child) {
+        margin-top: 2em;
+      }
+
+      article * + * {
+        margin-top: 1em;
+      }
+
+      a {
+        color: navy;
+        text-underline-offset: 0.15em;
+      }
+
+      h2 {
+        font-size: 22px;
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+      }
+
+      label {
+        display: block;
+        font-size: 22px;
+      }
+
+      input,
+      textarea {
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        box-shadow: inset 0 1px 3px #ddd;
+        box-sizing: border-box;
+        display: inline-block;
+        font-size: 18px;
+        padding: 1em 1.25em;
+        vertical-align: middle;
+        margin: 0.5em 0;
+      }
+
+      button {
+        cursor: pointer;
+        display: inline-block;
+        line-height: normal;
+        vertical-align: middle;
+        white-space: nowrap;
+        -webkit-user-drag: none;
+        box-sizing: border-box;
+        user-select: none;
+        background-color: #e6e6e6;
+        border: #0000;
+        border-radius: 2px;
+        color: #000c;
+        font-size: 100%;
+        padding: 0.5em 1em;
+      }
+
+      button:disabled {
+        opacity: 0.2;
+      }
+
+      .button-success,
+      .button-error,
+      .button-warning,
+      .button-secondary {
+        color: white;
+        border-radius: 4px;
+        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+      }
+
+      .button-success {
+        background: rgb(28, 184, 65);
+      }
+
+      .button-error {
+        background: rgb(202, 60, 60);
+      }
+
+      .button-warning {
+        background: rgb(223, 117, 20);
+      }
+
+      .button-secondary {
+        background: rgb(66, 184, 221);
+      }
+
+      .text-button {
+        background: none;
+        padding: 0;
+      }
+    </style>
+    
+		<link href="../../../_app/immutable/assets/0.DdABkOZM.css" rel="stylesheet">
+		<link href="../../../_app/immutable/assets/2.DuUTBvR_.css" rel="stylesheet">
+		<link href="../../../_app/immutable/assets/HappyBirthday001.BRz_k_le.css" rel="stylesheet">
+		<link rel="modulepreload" href="../../../_app/immutable/entry/start.B3_1Ltnx.js">
+		<link rel="modulepreload" href="../../../_app/immutable/chunks/entry.B3_jbYNc.js">
+		<link rel="modulepreload" href="../../../_app/immutable/chunks/runtime.Hom7p5iD.js">
+		<link rel="modulepreload" href="../../../_app/immutable/chunks/index-client.BcgK9ZMb.js">
+		<link rel="modulepreload" href="../../../_app/immutable/entry/app.DEJ32kEh.js">
+		<link rel="modulepreload" href="../../../_app/immutable/chunks/render.CDS8H-pY.js">
+		<link rel="modulepreload" href="../../../_app/immutable/chunks/disclose-version.DPtSkegj.js">
+		<link rel="modulepreload" href="../../../_app/immutable/chunks/if.BlZ8g9f6.js">
+		<link rel="modulepreload" href="../../../_app/immutable/chunks/store.ibFluFwL.js">
+		<link rel="modulepreload" href="../../../_app/immutable/chunks/props.CloK1Vja.js">
+		<link rel="modulepreload" href="../../../_app/immutable/nodes/0.B5iHSdwy.js">
+		<link rel="modulepreload" href="../../../_app/immutable/chunks/snippet.C2lUNj5I.js">
+		<link rel="modulepreload" href="../../../_app/immutable/nodes/2.DdBrTVRW.js">
+		<link rel="modulepreload" href="../../../_app/immutable/chunks/cardIsOpen.CDlouxBM.js">
+		<link rel="modulepreload" href="../../../_app/immutable/chunks/index.Cg1Ve7V0.js">
+		<link rel="modulepreload" href="../../../_app/immutable/chunks/index.Ca0VduNf.js">
+		<link rel="modulepreload" href="../../../_app/immutable/nodes/5.DRpdHUAF.js">
+		<link rel="modulepreload" href="../../../_app/immutable/chunks/HappyBirthday001.nrSO05K7.js">
+		<link rel="modulepreload" href="../../../_app/immutable/chunks/lifecycle.fKEWtPVw.js">
+  </head>
+  <body data-sveltekit-preload-data="hover">
+    <div style="display: contents"><!--[--><!--[--><!----><h1 class="svelte-1wdv9cp"><a href="/">Cards.Hop.Ie</a></h1> <main><!--[--><!----><h1 class="page-title svelte-15cberv">Customise your card</h1> <div class="panels svelte-15cberv"><div class="preview"><!----><div><button style="transform: rotateY(0deg) rotateX(0deg); transition: none;" class="card closed happybirthday001 edit tall svelte-1y5foj2"><div class="back svelte-1y5foj2"><div class="content svelte-1y5foj2"><p class="intro svelte-1y5foj2" style="font-family: &quot;Kaushan Script&quot;, cursive"></p> <p class="main-content svelte-1y5foj2" style="font-family: &quot;Great Vibes&quot;, cursive"></p> <p class="sign-off svelte-1y5foj2" style="font-family: &quot;Kaushan Script&quot;, cursive"></p></div></div> <div class="front svelte-1y5foj2" style="--sheenX: 0px; --sheenY: 0px; --sheenOpacity: 0;"><div class="content svelte-1y5foj2"><p style="font-family: &quot;Kaushan Script&quot;, cursive" class="svelte-1y5foj2"></p></div></div> <div class="lining svelte-1y5foj2"></div></button></div><!----><!----></div> <div class="steps"><!--[!--><!--]--> <!--[--><div id="step-2" class="step svelte-15cberv"><h2 class="svelte-15cberv">Greeting</h2> <div class="wrapper"><textarea rows="4" class="svelte-h6m4k5">To NAME</textarea> <p class="characters svelte-h6m4k5">133 characters left</p></div><!----> <div class="controls svelte-15cberv"><button>Back</button> <button class="button-secondary">Next</button></div></div><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--></div></div><!----><!--]--><!----></main><!----><!--]--> <!--[!--><!--]--><!--]-->
+			
+			<script>
+				{
+					__sveltekit_18shg = {
+						base: new URL("../../..", location).pathname.slice(0, -1)
+					};
+
+					const element = document.currentScript.parentElement;
+
+					Promise.all([
+						import("../../../_app/immutable/entry/start.B3_1Ltnx.js"),
+						import("../../../_app/immutable/entry/app.DEJ32kEh.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 2, 5],
+							data: [null,null,null],
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+  </body>
+</html>

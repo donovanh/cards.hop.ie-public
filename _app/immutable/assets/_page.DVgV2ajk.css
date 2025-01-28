@@ -1,0 +1,1 @@
+.card-grid.svelte-1g7b6nw{margin:2rem 0;width:100%}.cards.svelte-1g7b6nw{--min: 33ch;--gap: 2rem;display:grid;grid-gap:var(--gap);grid-template-columns:repeat(auto-fit,minmax(min(100%,var(--min)),1fr));padding:0}.cards.svelte-1g7b6nw li:where(.svelte-1g7b6nw){list-style:none;place-content:center;margin:0 auto;display:flex;flex-direction:column}
