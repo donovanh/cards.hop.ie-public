@@ -1,1 +1,0 @@
-import{T as t,v as o,Q as c,I as u}from"./runtime.Hom7p5iD.js";function l(n){throw new Error("https://svelte.dev/e/lifecycle_outside_component")}function r(n){t===null&&l(),o&&t.l!==null?a(t).m.push(n):c(()=>{const e=u(n);if(typeof e=="function")return e})}function a(n){var e=n.l;return e.u??(e.u={a:[],b:[],m:[]})}export{r as o};
