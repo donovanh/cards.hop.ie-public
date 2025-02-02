@@ -1,1 +1,0 @@
-import"./disclose-version.BrxawLAq.js";import"./legacy.CT42zspd.js";import{C as r}from"./Card.D9j904On.js";function o(t){r(t,{fonts:{frontTextFont:'"Kaushan Script", cursive',innerText1Font:'"Kaushan Script", cursive',innerText2Font:'"Great Vibes", cursive',innerText3Font:'"Kaushan Script", cursive'},cardClass:"happybirthday002"})}export{o as H};
