@@ -1,0 +1,1 @@
+import"./disclose-version.BJYsGCIV.js";import"./legacy.B8nHjicu.js";/* empty css              */import{C as t}from"./Card.pakCe-EW.js";function c(n){t(n,{fonts:{frontTextFont:"Kalam, cursive",innerText1Font:"Kalam, cursive",innerText2Font:'"Kaushan Script", cursive',innerText3Font:"Kalam, cursive"},cardClass:"valentines007"})}export{c as V};
