@@ -1,0 +1,1 @@
+import"./disclose-version.D8JqvYHJ.js";import"./legacy.mHoAQpW1.js";/* empty css              */import{C as r}from"./Card.DwQlT5Aa.js";function c(t){r(t,{fonts:{frontTextFont:"Kalam, cursive",innerText1Font:"Kalam, cursive",innerText2Font:'"Kaushan Script", cursive',innerText3Font:"Kalam, cursive"},cardClass:"birthday007"})}export{c as B};
