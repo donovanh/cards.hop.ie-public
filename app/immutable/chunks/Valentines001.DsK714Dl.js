@@ -1,1 +1,0 @@
-import"./disclose-version.k56D7K1S.js";import"./legacy.8r4yEuzY.js";import{C as n}from"./Card.ZRV06Ba0.js";/* empty css              */function c(t){n(t,{fonts:{frontTextFont:'"Great Vibes", cursive',innerText1Font:'"Kaushan Script", cursive',innerText2Font:'"Great Vibes", cursive',innerText3Font:'"Kaushan Script", cursive'},cardClass:"valentines001 fancy-wide"})}export{c as V};

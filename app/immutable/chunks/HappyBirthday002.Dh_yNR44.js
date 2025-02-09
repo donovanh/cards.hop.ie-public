@@ -1,0 +1,1 @@
+import"./disclose-version.CBGGKvsb.js";import"./legacy.DpRlD0VA.js";import{C as r}from"./Card.CFQO5p9z.js";/* empty css              */function c(t){r(t,{fonts:{frontTextFont:'"Great Vibes", cursive',innerText1Font:'"Kaushan Script", cursive',innerText2Font:'"Great Vibes", cursive',innerText3Font:'"Kaushan Script", cursive'},cardClass:"happybirthday002"})}export{c as H};
