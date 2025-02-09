@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /cards/view/
+Disallow: /stats.html
