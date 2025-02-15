@@ -1,1 +1,0 @@
-import{X as h,Y as k,Q as S,t as T,Z as Y}from"./runtime.9UboM5y6.js";function t(r,i){return r===i||(r==null?void 0:r[Y])===i}function x(r={},i,a,c){return h(()=>{var f,s;return k(()=>{f=s,s=[],S(()=>{r!==a(...s)&&(i(r,...s),f&&t(a(...f),r)&&i(null,...f))})}),()=>{T(()=>{s&&t(a(...s),r)&&i(null,...s)})}}),r}export{x as b};
