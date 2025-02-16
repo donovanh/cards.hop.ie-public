@@ -1,0 +1,1 @@
+import{c as o,E as c,d as l,ab as p,z as i,h as f,e as h}from"./runtime.BTiTfakP.js";import{p as m,l as d}from"./index.BxIUfQcB.js";function E(a,r,...n){var s=a,t=p,e;o(()=>{t!==(t=r())&&(e&&(i(e),e=null),e=l(()=>t(s,...n)))},c),f&&(s=h)}const _=()=>{const a=m.url.pathname.split("/");return d.includes(a[1])?a[1]:"en"};export{_ as g,E as s};
