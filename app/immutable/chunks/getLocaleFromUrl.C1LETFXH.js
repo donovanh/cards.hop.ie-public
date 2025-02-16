@@ -1,0 +1,1 @@
+import{c as o,E as c,d as l,a1 as p,A as i,h as f,e as h}from"./runtime.CkVeGbxy.js";import{p as m,l as d}from"./index.C4_zQkb7.js";function E(a,r,...n){var s=a,t=p,e;o(()=>{t!==(t=r())&&(e&&(i(e),e=null),e=l(()=>t(s,...n)))},c),f&&(s=h)}const _=()=>{const a=m.url.pathname.split("/");return d.includes(a[1])?a[1]:"en"};export{_ as g,E as s};
