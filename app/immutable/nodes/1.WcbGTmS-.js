@@ -1,1 +1,0 @@
-import{a as r,t as a}from"../chunks/disclose-version.CvcJnQgu.js";import"../chunks/legacy.D3UXn0A8.js";import{n as e}from"../chunks/runtime.B9YhlTFU.js";var n=a('<h1>Page not found</h1> <p>Return to the <a href="/">home page</a>!</p>',1);function h(o){var t=n();e(2),r(o,t)}export{h as component};
