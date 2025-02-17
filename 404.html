@@ -11,7 +11,7 @@
         console.log(newUrl);
         let meta = document.createElement("meta");
         meta.httpEquiv = "refresh";
-        meta.content = `20;url=${newUrl}`;
+        meta.content = `0;url=${newUrl}`;
         document.head.appendChild(meta);
 
         document.addEventListener("DOMContentLoaded", function () {
